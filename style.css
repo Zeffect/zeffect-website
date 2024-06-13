@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=VT323&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    font-family: VT323;
+    font-size: 2rem;
+}
+
+.construction-container {
+    text-align: center;
+}
+
+.construction-text {
+    display: inline-block;
+}
+
+.dots {
+    display: inline-block;
+}
+
+.visits {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 465px) {
+    .construction-text {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .construction-text {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .construction-text {
+        font-size: 50%;
+    }
+}
